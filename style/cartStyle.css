@@ -1,0 +1,150 @@
+#nothing-cart
+{
+    font:bold 20px sans-serif;
+    color:rgb(176, 24, 140);
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+.cart-grid
+{
+    display: flex;
+    justify-content:space-evenly;
+    margin: auto;
+    /* flex-wrap: wrap; */
+    margin-top: 30px;
+    padding: 10px;
+}
+.cart-image
+{
+    width:200px;
+    height:150px;
+    padding-left:2px;
+}
+.cart-product-details
+{
+    padding: 5px;
+    width:300px;
+}
+.cart-title
+{
+    font:20px sans-serif;
+    color: grey;
+}
+.cart-price
+{
+    font:bold 18px sans-serif;
+    margin-top: 10px;
+}
+.quantity
+{
+    text-align: center;
+    font-weight: bold;
+}
+.count
+{
+    font: bold 18px sans-serif;
+    padding: 10px;
+}
+button.inc-dec
+{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image:var(--background-img) ;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+#clear-all
+{
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    font: 18px sans-serif;
+    margin-top: 20px;
+    background-image:var(--background-img);
+    padding: 20px;
+    border:none;
+    outline: none;
+    margin-bottom: 20px;
+    color:var(--color);
+    cursor:pointer;
+}
+.clear-btn
+{
+    text-align: center;
+    font:bold 18px sans-serif;
+}
+.fa-plus , .fa-minus
+{
+    color:white;
+}
+.btn-el-clear
+{
+    border:none;
+    outline: none;
+    padding:10px;
+    background-color: white;
+}
+button:hover
+{
+    opacity: 0.5;
+}
+.total
+{
+    font: bold 22px sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    padding:10px;
+}
+.buy
+{
+    text-align: center;
+}
+#buybtn
+{   
+    width: 200px;
+    text-align: center;
+    font:bold 18px sans-serif;
+    margin-top: 20px;
+    background-image:var(--background-img);
+    padding: 20px;
+    border:none;
+    outline: none;
+    margin-bottom: 20px;
+    color:var(--color);
+    cursor: pointer;
+}
+.cartemoji
+{
+    font-size:80px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* buy.html */
+.message
+{
+    font:bold 20px sans-serif;
+    text-align: center;
+    color:rgb(176, 24, 140);
+    margin-top: 20px;
+    padding:20px;
+}
+@media screen and (max-width:640px) {
+    .cart-image
+    {
+        width:100px;
+        height: 70px;
+    }
+    .cart-title
+    {
+        font-size: 16px;
+    }
+    button.inc-dec
+    {
+        width:30px;
+        height:30px;
+    }
+}

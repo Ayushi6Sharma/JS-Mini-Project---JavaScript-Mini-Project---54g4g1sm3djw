@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Search Products</title>
+</head>
+<body>
+     <!-- navbar -->
+     <nav>
+        <div class="menulogo">
+            <!-- <span class="menu">
+                <i class="fa fa-solid fa-bars fa-2x"></i>
+            </span> -->
+           <a href="../index.html"  class="logo"> <span>
+                BVY
+            </span></a>
+        </div>
+        <div class="search">
+            <!-- <form> -->
+                <input type="text" class="inputsearch" placeholder="search for any product">
+                <button type="submit" class="searchbtn">
+                    <i class="fa fa-search fa-2x"></i>
+                </button>
+            <!-- </form> -->
+        </div>
+        <div class="nav-icons" id="cartHide">
+            <div class="linkwrapper">
+                <a href="./cart.html"><i class="fa fa-cart-plus fa-2x"></i></a>
+            </div>
+        </div>
+        <div>
+            <div class="login" id="loginHide">Login</div>
+        </div>
+    </nav>
+    <section id="grid1">
+
+    </section>
+
+    <section id="modal">
+        <form>
+            <div>
+                <button type="button" class="btn-clear">
+                <i class="fa fa-xmark fa-2x"></i>
+                </button>
+            </div>
+            <input type="text" name="name" id="name" placeholder="name" minlength="4" maxlength="14" class="modalinput" required>
+            <br>
+            <input type="email" name="email" id="email" placeholder="email" class="modalinput"required>
+            <br>
+            <input type="password"name="password" id="pwd" placeholder="password" minlength="4" maxlength="14" class="modalinput" required>
+            <br>
+            <input type="date" id="date" name="dob" class="modalinput">
+            <br>
+            <button type="submit" id="submit">Login</button>
+        </form>
+    </section>    
+
+    <script src="../js/searchProduct.js"></script>
+</body>
+</html>
